@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gF6-K1-EdJ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Player Score View Controller-->
+        <scene sceneID="nks-YV-pGz">
+            <objects>
+                <viewController id="gF6-K1-EdJ" customClass="PlayerScoreViewController" customModule="ViewControllerComposition" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eky-7c-3Sl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sgj-lH-wpF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nog-c1-WqM">
+                                        <rect key="frame" x="12" y="0.0" width="390" height="80"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Le Thinh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEn-rr-Y10">
+                                                <rect key="frame" x="0.0" y="0.0" width="390" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQb-cd-Nel">
+                                                <rect key="frame" x="0.0" y="40" width="390" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="nog-c1-WqM" firstAttribute="top" secondItem="Sgj-lH-wpF" secondAttribute="top" id="3pF-X2-StU"/>
+                                    <constraint firstItem="nog-c1-WqM" firstAttribute="centerY" secondItem="Sgj-lH-wpF" secondAttribute="centerY" id="SLr-C3-FHq"/>
+                                    <constraint firstItem="nog-c1-WqM" firstAttribute="centerX" secondItem="Sgj-lH-wpF" secondAttribute="centerX" id="fW1-82-IVO"/>
+                                    <constraint firstItem="nog-c1-WqM" firstAttribute="leading" secondItem="Sgj-lH-wpF" secondAttribute="leading" constant="12" id="n0b-Lj-Cpc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Sgj-lH-wpF" firstAttribute="top" secondItem="eky-7c-3Sl" secondAttribute="top" id="SAI-uo-d4f"/>
+                            <constraint firstItem="Sgj-lH-wpF" firstAttribute="centerX" secondItem="eky-7c-3Sl" secondAttribute="centerX" id="adu-j1-jIF"/>
+                            <constraint firstItem="Sgj-lH-wpF" firstAttribute="leading" secondItem="Lbd-mX-BiX" secondAttribute="leading" id="hYv-t6-Y51"/>
+                            <constraint firstItem="Lbd-mX-BiX" firstAttribute="bottom" secondItem="Sgj-lH-wpF" secondAttribute="bottom" id="lIQ-MQ-qeO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Lbd-mX-BiX"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="80"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="FEn-rr-Y10" id="LPM-fo-GSr"/>
+                        <outlet property="scoreLabel" destination="tQb-cd-Nel" id="hrg-rd-m1u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cjt-T1-dTs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="127"/>
+        </scene>
+    </scenes>
+</document>

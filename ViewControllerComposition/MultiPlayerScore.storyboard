@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JRq-Ev-Ndc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PlayerOne-->
+        <scene sceneID="o2h-mm-qva">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerOne" id="QlH-Du-wN7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EaD-zU-SDQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79" y="-70"/>
+        </scene>
+        <!--PlayerTwo-->
+        <scene sceneID="wEb-rb-Os9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PlayerTwo" id="Oxe-CY-P9c" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lLR-af-5EE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="265" y="-58"/>
+        </scene>
+        <!--Multi Player Score View Controller-->
+        <scene sceneID="uZv-aV-MbA">
+            <objects>
+                <viewController id="JRq-Ev-Ndc" customClass="MultiPlayerScoreViewController" customModule="ViewControllerComposition" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bRa-C7-lFJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Izu-eb-MKb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                <subviews>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zV8-c3-wH8">
+                                        <rect key="frame" x="0.0" y="0.0" width="184.5" height="100"/>
+                                        <connections>
+                                            <segue destination="QlH-Du-wN7" kind="embed" identifier="playerOne" id="xgG-pq-snb"/>
+                                        </connections>
+                                    </containerView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QrQ-zh-Vfy">
+                                        <rect key="frame" x="196.5" y="0.0" width="21.5" height="100"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ucp-nI-D9n">
+                                        <rect key="frame" x="230" y="0.0" width="184" height="100"/>
+                                        <connections>
+                                            <segue destination="Oxe-CY-P9c" kind="embed" identifier="playerTwo" id="zrY-11-lKe"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zV8-c3-wH8" firstAttribute="width" secondItem="ucp-nI-D9n" secondAttribute="width" id="guZ-O7-d4l"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Izu-eb-MKb" firstAttribute="top" secondItem="bRa-C7-lFJ" secondAttribute="top" id="P2W-iK-bPQ"/>
+                            <constraint firstItem="Izu-eb-MKb" firstAttribute="leading" secondItem="bRa-C7-lFJ" secondAttribute="leading" id="Q8a-9k-G68"/>
+                            <constraint firstAttribute="trailing" secondItem="Izu-eb-MKb" secondAttribute="trailing" id="SXr-8n-AmK"/>
+                            <constraint firstAttribute="bottom" secondItem="Izu-eb-MKb" secondAttribute="bottom" id="l39-oF-AAE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RqH-ih-0H8"/>
+                    </view>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oCa-Ao-uAL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="68"/>
+        </scene>
+    </scenes>
+</document>

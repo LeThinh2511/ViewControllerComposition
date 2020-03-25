@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X4q-oi-9vh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Time Bar View Controller-->
+        <scene sceneID="NUY-Jf-qwK">
+            <objects>
+                <viewController id="X4q-oi-9vh" customClass="TimeBarViewController" customModule="ViewControllerComposition" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5F2-CU-scp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="10"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URV-Rc-e2T">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="10"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="URV-Rc-e2T" firstAttribute="leading" secondItem="jIY-82-DLl" secondAttribute="leading" id="DEw-ok-pfb"/>
+                            <constraint firstItem="URV-Rc-e2T" firstAttribute="centerY" secondItem="5F2-CU-scp" secondAttribute="centerY" id="UPK-oz-hmR"/>
+                            <constraint firstItem="URV-Rc-e2T" firstAttribute="centerX" secondItem="5F2-CU-scp" secondAttribute="centerX" id="cdV-hN-jck"/>
+                            <constraint firstItem="URV-Rc-e2T" firstAttribute="top" secondItem="5F2-CU-scp" secondAttribute="top" id="lY9-sV-ZbD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jIY-82-DLl"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="414" height="10"/>
+                    <connections>
+                        <outlet property="timeBar" destination="URV-Rc-e2T" id="AcD-4j-eaO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="is1-1Z-paS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="112"/>
+        </scene>
+    </scenes>
+</document>

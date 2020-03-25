@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		32D1BB9B242B95E000DCF884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BB9A242B95E000DCF884 /* AppDelegate.swift */; };
-		32D1BB9D242B95E000DCF884 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BB9C242B95E000DCF884 /* SceneDelegate.swift */; };
-		32D1BB9F242B95E000DCF884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BB9E242B95E000DCF884 /* ViewController.swift */; };
 		32D1BBA2242B95E000DCF884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBA0242B95E000DCF884 /* Main.storyboard */; };
 		32D1BBA4242B95E400DCF884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBA3242B95E400DCF884 /* Assets.xcassets */; };
 		32D1BBA7242B95E400DCF884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBA5242B95E400DCF884 /* LaunchScreen.storyboard */; };
+		32D1BBAF242B977B00DCF884 /* SinglePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BBAE242B977B00DCF884 /* SinglePlayerViewController.swift */; };
+		32D1BBB3242B990D00DCF884 /* PlayerOne.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBB2242B990D00DCF884 /* PlayerOne.storyboard */; };
+		32D1BBB5242B99E100DCF884 /* PlayerTwo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBB4242B99E100DCF884 /* PlayerTwo.storyboard */; };
+		32D1BBB7242B9A4500DCF884 /* PlayerScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BBB6242B9A4500DCF884 /* PlayerScoreViewController.swift */; };
+		32D1BBB9242B9AF700DCF884 /* SinglePlayerGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBB8242B9AF700DCF884 /* SinglePlayerGame.storyboard */; };
+		32D1BBBB242B9C2700DCF884 /* MultiPlayerGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBBA242B9C2700DCF884 /* MultiPlayerGame.storyboard */; };
+		32D1BBBD242B9F6100DCF884 /* TimedMultiPlayerGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBBC242B9F6100DCF884 /* TimedMultiPlayerGame.storyboard */; };
+		32D1BBBF242B9FAC00DCF884 /* MultiPlayerScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBBE242B9FAC00DCF884 /* MultiPlayerScore.storyboard */; };
+		32D1BBC1242BA13800DCF884 /* TimeBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBC0242BA13800DCF884 /* TimeBar.storyboard */; };
+		32D1BBC3242BA1D000DCF884 /* TimeBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BBC2242BA1D000DCF884 /* TimeBarViewController.swift */; };
+		32D1BBC5242BA40F00DCF884 /* TimedMultiPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BBC4242BA40F00DCF884 /* TimedMultiPlayerViewController.swift */; };
+		32D1BBC7242BA4D400DCF884 /* MultiPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BBC6242BA4D400DCF884 /* MultiPlayerViewController.swift */; };
+		32D1BBC9242BA93500DCF884 /* MultiPlayerScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BBC8242BA93500DCF884 /* MultiPlayerScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		32D1BB97242B95E000DCF884 /* ViewControllerComposition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerComposition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D1BB9A242B95E000DCF884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32D1BB9C242B95E000DCF884 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32D1BB9E242B95E000DCF884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32D1BBA1242B95E000DCF884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32D1BBA3242B95E400DCF884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D1BBA6242B95E400DCF884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32D1BBA8242B95E400DCF884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D1BBAE242B977B00DCF884 /* SinglePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewController.swift; sourceTree = "<group>"; };
+		32D1BBB2242B990D00DCF884 /* PlayerOne.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlayerOne.storyboard; sourceTree = "<group>"; };
+		32D1BBB4242B99E100DCF884 /* PlayerTwo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlayerTwo.storyboard; sourceTree = "<group>"; };
+		32D1BBB6242B9A4500DCF884 /* PlayerScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreViewController.swift; sourceTree = "<group>"; };
+		32D1BBB8242B9AF700DCF884 /* SinglePlayerGame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SinglePlayerGame.storyboard; sourceTree = "<group>"; };
+		32D1BBBA242B9C2700DCF884 /* MultiPlayerGame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MultiPlayerGame.storyboard; sourceTree = "<group>"; };
+		32D1BBBC242B9F6100DCF884 /* TimedMultiPlayerGame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TimedMultiPlayerGame.storyboard; sourceTree = "<group>"; };
+		32D1BBBE242B9FAC00DCF884 /* MultiPlayerScore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MultiPlayerScore.storyboard; sourceTree = "<group>"; };
+		32D1BBC0242BA13800DCF884 /* TimeBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TimeBar.storyboard; sourceTree = "<group>"; };
+		32D1BBC2242BA1D000DCF884 /* TimeBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBarViewController.swift; sourceTree = "<group>"; };
+		32D1BBC4242BA40F00DCF884 /* TimedMultiPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedMultiPlayerViewController.swift; sourceTree = "<group>"; };
+		32D1BBC6242BA4D400DCF884 /* MultiPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPlayerViewController.swift; sourceTree = "<group>"; };
+		32D1BBC8242BA93500DCF884 /* MultiPlayerScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPlayerScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +79,23 @@
 			isa = PBXGroup;
 			children = (
 				32D1BB9A242B95E000DCF884 /* AppDelegate.swift */,
-				32D1BB9C242B95E000DCF884 /* SceneDelegate.swift */,
-				32D1BB9E242B95E000DCF884 /* ViewController.swift */,
-				32D1BBA0242B95E000DCF884 /* Main.storyboard */,
 				32D1BBA3242B95E400DCF884 /* Assets.xcassets */,
 				32D1BBA5242B95E400DCF884 /* LaunchScreen.storyboard */,
 				32D1BBA8242B95E400DCF884 /* Info.plist */,
+				32D1BBA0242B95E000DCF884 /* Main.storyboard */,
+				32D1BBB2242B990D00DCF884 /* PlayerOne.storyboard */,
+				32D1BBB4242B99E100DCF884 /* PlayerTwo.storyboard */,
+				32D1BBB6242B9A4500DCF884 /* PlayerScoreViewController.swift */,
+				32D1BBB8242B9AF700DCF884 /* SinglePlayerGame.storyboard */,
+				32D1BBAE242B977B00DCF884 /* SinglePlayerViewController.swift */,
+				32D1BBBE242B9FAC00DCF884 /* MultiPlayerScore.storyboard */,
+				32D1BBC8242BA93500DCF884 /* MultiPlayerScoreViewController.swift */,
+				32D1BBBA242B9C2700DCF884 /* MultiPlayerGame.storyboard */,
+				32D1BBC6242BA4D400DCF884 /* MultiPlayerViewController.swift */,
+				32D1BBC0242BA13800DCF884 /* TimeBar.storyboard */,
+				32D1BBC2242BA1D000DCF884 /* TimeBarViewController.swift */,
+				32D1BBBC242B9F6100DCF884 /* TimedMultiPlayerGame.storyboard */,
+				32D1BBC4242BA40F00DCF884 /* TimedMultiPlayerViewController.swift */,
 			);
 			path = ViewControllerComposition;
 			sourceTree = "<group>";
@@ -126,8 +159,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D1BBA7242B95E400DCF884 /* LaunchScreen.storyboard in Resources */,
+				32D1BBC1242BA13800DCF884 /* TimeBar.storyboard in Resources */,
+				32D1BBB9242B9AF700DCF884 /* SinglePlayerGame.storyboard in Resources */,
 				32D1BBA4242B95E400DCF884 /* Assets.xcassets in Resources */,
+				32D1BBBD242B9F6100DCF884 /* TimedMultiPlayerGame.storyboard in Resources */,
+				32D1BBB3242B990D00DCF884 /* PlayerOne.storyboard in Resources */,
+				32D1BBBF242B9FAC00DCF884 /* MultiPlayerScore.storyboard in Resources */,
 				32D1BBA2242B95E000DCF884 /* Main.storyboard in Resources */,
+				32D1BBBB242B9C2700DCF884 /* MultiPlayerGame.storyboard in Resources */,
+				32D1BBB5242B99E100DCF884 /* PlayerTwo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32D1BB9F242B95E000DCF884 /* ViewController.swift in Sources */,
+				32D1BBB7242B9A4500DCF884 /* PlayerScoreViewController.swift in Sources */,
 				32D1BB9B242B95E000DCF884 /* AppDelegate.swift in Sources */,
-				32D1BB9D242B95E000DCF884 /* SceneDelegate.swift in Sources */,
+				32D1BBC3242BA1D000DCF884 /* TimeBarViewController.swift in Sources */,
+				32D1BBC9242BA93500DCF884 /* MultiPlayerScoreViewController.swift in Sources */,
+				32D1BBC7242BA4D400DCF884 /* MultiPlayerViewController.swift in Sources */,
+				32D1BBAF242B977B00DCF884 /* SinglePlayerViewController.swift in Sources */,
+				32D1BBC5242BA40F00DCF884 /* TimedMultiPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +329,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
 				INFOPLIST_FILE = ViewControllerComposition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +348,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
 				INFOPLIST_FILE = ViewControllerComposition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

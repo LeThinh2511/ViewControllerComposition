@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tfF-ef-62q">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MultiPlayerScore-->
+        <scene sceneID="xMA-6f-4UZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MultiPlayerScore" id="Bqn-Fq-uXz" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QTZ-Mz-wVd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-82" y="-300"/>
+        </scene>
+        <!--Multi Player-->
+        <scene sceneID="065-15-2C5">
+            <objects>
+                <viewController id="tfF-ef-62q" customClass="MultiPlayerViewController" customModule="ViewControllerComposition" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ahw-Pr-TlU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Yhx-Oy-MXy">
+                                <rect key="frame" x="12" y="56" width="390" height="100"/>
+                                <subviews>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dO7-73-QfA">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="100"/>
+                                        <connections>
+                                            <segue destination="Bqn-Fq-uXz" kind="embed" id="PSs-uU-3hd"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5VY-w7-DyY"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Yhx-Oy-MXy" secondAttribute="trailing" constant="12" id="25T-W4-45H"/>
+                            <constraint firstItem="Yhx-Oy-MXy" firstAttribute="leading" secondItem="ahw-Pr-TlU" secondAttribute="leading" constant="12" id="BAV-qa-dvE"/>
+                            <constraint firstItem="Yhx-Oy-MXy" firstAttribute="top" secondItem="jPI-9T-xfC" secondAttribute="top" constant="12" id="DY6-e5-lU3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jPI-9T-xfC"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Multi Player" id="Tp1-u8-e2I"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uzz-Ku-dmX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="68"/>
+        </scene>
+    </scenes>
+</document>

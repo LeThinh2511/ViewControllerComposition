@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		327CEA8C242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327CEA8B242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift */; };
+		327CEA8E242CE10A00525849 /* SinglePlayerViewControllerStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327CEA8D242CE10A00525849 /* SinglePlayerViewControllerStoryboardTests.swift */; };
+		327CEA90242CE3BE00525849 /* SinglePlayerViewControllerStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327CEA8F242CE3BE00525849 /* SinglePlayerViewControllerStoryboardConfigurator.swift */; };
 		32D1BB9B242B95E000DCF884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BB9A242B95E000DCF884 /* AppDelegate.swift */; };
 		32D1BBA2242B95E000DCF884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBA0242B95E000DCF884 /* Main.storyboard */; };
 		32D1BBA4242B95E400DCF884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBA3242B95E400DCF884 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 		327CEA7F242CD85700525849 /* ViewControllerCompositionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerCompositionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		327CEA83242CD85700525849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		327CEA8B242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerScoreViewControllerStoryboardTests.swift; sourceTree = "<group>"; };
+		327CEA8D242CE10A00525849 /* SinglePlayerViewControllerStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewControllerStoryboardTests.swift; sourceTree = "<group>"; };
+		327CEA8F242CE3BE00525849 /* SinglePlayerViewControllerStoryboardConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewControllerStoryboardConfigurator.swift; sourceTree = "<group>"; };
 		32D1BB97242B95E000DCF884 /* ViewControllerComposition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerComposition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D1BB9A242B95E000DCF884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D1BBA1242B95E000DCF884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,8 +87,9 @@
 		327CEA80242CD85700525849 /* ViewControllerCompositionTests */ = {
 			isa = PBXGroup;
 			children = (
-				327CEA8B242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift */,
 				327CEA83242CD85700525849 /* Info.plist */,
+				327CEA8B242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift */,
+				327CEA8D242CE10A00525849 /* SinglePlayerViewControllerStoryboardTests.swift */,
 			);
 			path = ViewControllerCompositionTests;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 				32D1BBC2242BA1D000DCF884 /* TimeBarViewController.swift */,
 				32D1BBBC242B9F6100DCF884 /* TimedMultiPlayerGame.storyboard */,
 				32D1BBC4242BA40F00DCF884 /* TimedMultiPlayerViewController.swift */,
+				327CEA8F242CE3BE00525849 /* SinglePlayerViewControllerStoryboardConfigurator.swift */,
 			);
 			path = ViewControllerComposition;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327CEA8E242CE10A00525849 /* SinglePlayerViewControllerStoryboardTests.swift in Sources */,
 				327CEA8C242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +259,7 @@
 				32D1BBB7242B9A4500DCF884 /* PlayerScoreViewController.swift in Sources */,
 				32D1BB9B242B95E000DCF884 /* AppDelegate.swift in Sources */,
 				32D1BBC3242BA1D000DCF884 /* TimeBarViewController.swift in Sources */,
+				327CEA90242CE3BE00525849 /* SinglePlayerViewControllerStoryboardConfigurator.swift in Sources */,
 				32D1BBC9242BA93500DCF884 /* MultiPlayerScoreViewController.swift in Sources */,
 				32D1BBC7242BA4D400DCF884 /* MultiPlayerViewController.swift in Sources */,
 				32D1BBAF242B977B00DCF884 /* SinglePlayerViewController.swift in Sources */,

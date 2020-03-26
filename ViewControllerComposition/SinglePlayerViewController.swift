@@ -9,7 +9,5 @@
 import UIKit
 
 class SinglePlayerViewController: UIViewController {
-    var player: PlayerScoreViewController? {
-        return children.first as? PlayerScoreViewController
-    }
+    var player: PlayerScoreViewController?
 }

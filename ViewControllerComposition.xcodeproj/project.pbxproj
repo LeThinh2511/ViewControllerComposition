@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		327CEA8C242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327CEA8B242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift */; };
 		32D1BB9B242B95E000DCF884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BB9A242B95E000DCF884 /* AppDelegate.swift */; };
 		32D1BBA2242B95E000DCF884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBA0242B95E000DCF884 /* Main.storyboard */; };
 		32D1BBA4242B95E400DCF884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D1BBA3242B95E400DCF884 /* Assets.xcassets */; };
@@ -26,7 +27,20 @@
 		32D1BBC9242BA93500DCF884 /* MultiPlayerScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D1BBC8242BA93500DCF884 /* MultiPlayerScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		327CEA84242CD85700525849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32D1BB8F242B95E000DCF884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D1BB96242B95E000DCF884;
+			remoteInfo = ViewControllerComposition;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		327CEA7F242CD85700525849 /* ViewControllerCompositionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerCompositionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		327CEA83242CD85700525849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327CEA8B242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerScoreViewControllerStoryboardTests.swift; sourceTree = "<group>"; };
 		32D1BB97242B95E000DCF884 /* ViewControllerComposition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerComposition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D1BB9A242B95E000DCF884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D1BBA1242B95E000DCF884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		327CEA7C242CD85700525849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32D1BB94242B95E000DCF884 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +80,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		327CEA80242CD85700525849 /* ViewControllerCompositionTests */ = {
+			isa = PBXGroup;
+			children = (
+				327CEA8B242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift */,
+				327CEA83242CD85700525849 /* Info.plist */,
+			);
+			path = ViewControllerCompositionTests;
+			sourceTree = "<group>";
+		};
 		32D1BB8E242B95E000DCF884 = {
 			isa = PBXGroup;
 			children = (
 				32D1BB99242B95E000DCF884 /* ViewControllerComposition */,
+				327CEA80242CD85700525849 /* ViewControllerCompositionTests */,
 				32D1BB98242B95E000DCF884 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				32D1BB97242B95E000DCF884 /* ViewControllerComposition.app */,
+				327CEA7F242CD85700525849 /* ViewControllerCompositionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +135,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		327CEA7E242CD85700525849 /* ViewControllerCompositionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327CEA88242CD85700525849 /* Build configuration list for PBXNativeTarget "ViewControllerCompositionTests" */;
+			buildPhases = (
+				327CEA7B242CD85700525849 /* Sources */,
+				327CEA7C242CD85700525849 /* Frameworks */,
+				327CEA7D242CD85700525849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				327CEA85242CD85700525849 /* PBXTargetDependency */,
+			);
+			name = ViewControllerCompositionTests;
+			productName = ViewControllerCompositionTests;
+			productReference = 327CEA7F242CD85700525849 /* ViewControllerCompositionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		32D1BB96242B95E000DCF884 /* ViewControllerComposition */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32D1BBAB242B95E400DCF884 /* Build configuration list for PBXNativeTarget "ViewControllerComposition" */;
@@ -130,6 +180,11 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = ThinhLe;
 				TargetAttributes = {
+					327CEA7E242CD85700525849 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+						TestTargetID = 32D1BB96242B95E000DCF884;
+					};
 					32D1BB96242B95E000DCF884 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -149,11 +204,19 @@
 			projectRoot = "";
 			targets = (
 				32D1BB96242B95E000DCF884 /* ViewControllerComposition */,
+				327CEA7E242CD85700525849 /* ViewControllerCompositionTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		327CEA7D242CD85700525849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32D1BB95242B95E000DCF884 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,6 +237,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		327CEA7B242CD85700525849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327CEA8C242CD93B00525849 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32D1BB93242B95E000DCF884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +260,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		327CEA85242CD85700525849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32D1BB96242B95E000DCF884 /* ViewControllerComposition */;
+			targetProxy = 327CEA84242CD85700525849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		32D1BBA0242B95E000DCF884 /* Main.storyboard */ = {
@@ -210,6 +289,49 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		327CEA86242CD85700525849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
+				INFOPLIST_FILE = ViewControllerCompositionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.ViewControllerCompositionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllerComposition.app/ViewControllerComposition";
+			};
+			name = Debug;
+		};
+		327CEA87242CD85700525849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2S78UX6KB;
+				INFOPLIST_FILE = ViewControllerCompositionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhle.ViewControllerCompositionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllerComposition.app/ViewControllerComposition";
+			};
+			name = Release;
+		};
 		32D1BBA9242B95E400DCF884 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -365,6 +487,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		327CEA88242CD85700525849 /* Build configuration list for PBXNativeTarget "ViewControllerCompositionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327CEA86242CD85700525849 /* Debug */,
+				327CEA87242CD85700525849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		32D1BB92242B95E000DCF884 /* Build configuration list for PBXProject "ViewControllerComposition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

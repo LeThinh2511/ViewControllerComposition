@@ -10,8 +10,8 @@ import Foundation
 import UIKit
 
 class PlayerScoreViewController: UIViewController {
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var scoreLabel: UILabel!
+    @IBOutlet private(set) weak var nameLabel: UILabel!
+    @IBOutlet private(set) weak var scoreLabel: UILabel!
     
     var name: String? {
         get { return nameLabel.text }
